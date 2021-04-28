@@ -124,7 +124,20 @@ header {
 .buttonh {
     height: 100%;
     width: calc(20% - 70px);
+    position: relative;
 
+
+}
+
+.buttonh a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
 }
 
 /* sezione jumbotron */
