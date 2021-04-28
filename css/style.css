@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* debug */
-.debug header {
+/* .debug header {
     height: 70px;
     width: 100%;
     background-color: #3161e0; 
@@ -20,11 +21,7 @@
 
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 
 .debug .container * {
@@ -66,6 +63,84 @@
     height: 300px;
     width: 50%;
     background-color: yellow;
+} */
+
+/* fine debug */
+
+/* header */
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #3161e0; 
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container * {
+    float: left;
+}
+
+/* logo */
+.container #logo {
+    height: 100%;
+    width: calc(20% - 70px) ;
+    padding-top: 18px;
+}
+
+/* menu */
+.menu {
+    height: 100%;
+    width: 60%;
+    margin: 0 70px;
+    
 }
 
 
+.menu ul li {
+    list-style: none;
+    line-height: 70px;
+    padding-left: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+
+}
+
+/* button header accedi */
+.buttonh {
+    height: 100%;
+    width: calc(20% - 70px);
+
+}
+
+/* sezione jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 400px;
+    background-color: teal;
+    position: relative;
+}
+
+#boxjumbo {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 50%;
+    background-color: yellow;
+}
