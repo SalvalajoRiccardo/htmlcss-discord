@@ -50,3 +50,22 @@
     background-color: violet;
 
 }
+
+.debug .jumbotron {
+    width: 100%;
+    height: 400px;
+    background-color: teal;
+    position: relative;
+}
+
+#boxjumbo {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 50%;
+    background-color: yellow;
+}
+
+
