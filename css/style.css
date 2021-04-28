@@ -143,8 +143,11 @@ header {
 /* sezione jumbotron */
 .jumbotron {
     width: 100%;
-    height: 400px;
-    background-color: teal;
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -155,5 +158,22 @@ header {
     transform: translate(-50%, -50%);
     height: 300px;
     width: 50%;
-    background-color: yellow;
+    
 }
+
+#boxjumbo * {
+    text-align: center;
+}
+
+#boxjumbo h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120px;
+    color: white;
+}
+
+#boxjumbo p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
