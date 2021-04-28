@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug */
+.debug header {
+    height: 70px;
+    width: 100%;
+    background-color: #3161e0; 
+}
+
+.debug .container {
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    background-color: red;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.debug .container * {
+    float: left;
+}
+
+.debug .container #logo {
+    height: 100%;
+    width: 20%;
+    background-color: seagreen;
+}
+
+.debug .menu {
+    
+    height: 100%;
+    width: 60%;
+    background-color: slateblue;
+}
+
+.debug .buttonh {
+    height: 100%;
+    width: 20%;
+    background-color: violet;
+
+}
